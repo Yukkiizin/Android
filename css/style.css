@@ -32,13 +32,13 @@ a.externo::after{
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     padding-top: 40px;
-    height: 150px;
+    min-height: 150px;
+    text-align: center;
 }
 
 header h1{
     color: white;
     font-family: var(--font-destaque);
-    text-align: center;
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px black;
@@ -48,14 +48,13 @@ header h1{
 header p{
     font-family: var(--font-padrao);
     color: white;
-    text-align: center;
     padding-bottom: 20px;
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.321);
     
 }
 nav{
